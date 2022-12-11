@@ -1,0 +1,59 @@
+h2 {
+    text-align: center;
+}
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-image: url(img/background.jpg);
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.navbar{
+    background-color: white;
+    border-style: solid;
+    border-color: goldenrod;
+    position:sticky;
+    font-size: 20px;
+    top: 0px;
+    color: darkblue;
+}
+header {
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid white
+}
+.pictureframe{
+    border-style: solid;
+    border-color: goldenrod;
+}
+.active{
+    background-color:darkgoldenrod;
+}
+footer { 
+    background-color: white;
+    color:darkgoldenrod;
+    font-size: 15px;
+    border: 3px solid darkgoldenrod;
+    padding-left: 5px;
+}
+.dropdown { 
+    display: inline-block
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: goldenrod;
+    color: #000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    max-width: 500px;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
